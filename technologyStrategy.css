@@ -361,6 +361,15 @@
   font-family: 'MullerMedium';
 }
 
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul li a:hover {
+  color: #0095d3;
+}
+
 #mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul .current {
   color: #0095d3;
   font-weight: 600;
