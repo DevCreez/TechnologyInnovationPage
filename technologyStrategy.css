@@ -364,6 +364,8 @@
 #mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul li a {
   color: #000;
   text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul li a:hover {
