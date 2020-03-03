@@ -217,7 +217,7 @@
   transition: 1s;
 }
 
-#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link a:hover {
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link a:hover h4 {
   color: #0095d3;
 }
 
