@@ -208,6 +208,8 @@
   text-transform: uppercase;
   font-family: 'MullerBold';
   color: #021A32;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link a {
