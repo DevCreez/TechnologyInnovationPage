@@ -1,0 +1,528 @@
+@font-face {
+  font-family: 'Muller';
+  src: url(Muller.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url(MullerBold.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url(MullerExtraBold.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url(MullerMedium.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url(MullerLight.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerThin';
+  src: url(MullerThin.otf);
+  font-style: normal;
+}
+
+.global-maincontent,
+.article.article-body,
+.article-content {
+  margin: 0;
+  padding: 0;
+}
+
+#globalQuickLaunchMenu,
+.global-breadcrumbs-wrapper.ms-dialogHidden,
+.global-footer-wrapper.ms-dialogHidden {
+  display: none;
+}
+
+.ms-rtestate-field p {
+  display: none;
+}
+
+.global-breadcrumbs-current {
+  display: none;
+  margin: 0;
+}
+
+#s4-bodyContainer:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+#s4-workspace {
+  background-color: #021A32;
+}
+
+#MSOZoneCell_WebPartWPQ2 {
+  margin: auto auto;
+}
+
+.global-body-wrapper {
+  width: 100%;
+}
+
+.global-body-wrapper .global-wrapper {
+  overflow: visible !important;
+}
+
+#mainHolder {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+#mainHolder #technologyStrategy p {
+  display: block;
+}
+
+#mainHolder #technologyStrategy #tech-banner {
+  background-image: url("tech-banner.jpeg");
+  background-size: cover;
+  position: relative;
+  padding-top: 175px;
+  height: 600px;
+}
+
+#mainHolder #technologyStrategy #tech-banner .overlay {
+  background: #0090d342;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+#mainHolder #technologyStrategy #tech-banner h1 {
+  font-family: 'MullerBold';
+  text-align: center;
+  font-size: 75px;
+  text-transform: uppercase;
+  position: inherit;
+  z-index: 1000;
+  text-shadow: 0px 3px 8px #000000da;
+  color: #fff;
+}
+
+#mainHolder #technologyStrategy #tech-banner h2 {
+  font-family: 'Segoe UI';
+  font-size: 55px;
+  text-align: center;
+  position: inherit;
+  z-index: 1000;
+  font-style: italic;
+  text-shadow: 0px 3px 8px #000000e1;
+  color: #fff;
+}
+
+#mainHolder #technologyStrategy #header {
+  height: 60px;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+
+#mainHolder #technologyStrategy #header .wrap {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#mainHolder #technologyStrategy #header .wrap ul {
+  margin-left: 68%;
+}
+
+#mainHolder #technologyStrategy #header .wrap ul .nav-item {
+  font-family: 'Muller';
+  font-size: 1.8vw;
+  font-weight: 600;
+  padding-right: 70px;
+  text-decoration: none;
+}
+
+#mainHolder #technologyStrategy #primary {
+  background-color: #fff;
+  padding-bottom: 45px;
+}
+
+#mainHolder #technologyStrategy #primary .section {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#mainHolder #technologyStrategy #primary #page-description .wrap {
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+#mainHolder #technologyStrategy #primary #page-description .wrap h1 {
+  font-size: 3vw;
+  margin-bottom: 25px;
+  font-family: 'Muller';
+}
+
+#mainHolder #technologyStrategy #primary #page-description .wrap .content h2 {
+  color: #4e4e4e;
+  font-size: 1.4vw;
+  font-family: 'MullerLight';
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap {
+  padding-left: 140px;
+  padding-right: 140px;
+  text-align: center;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link {
+  width: 45%;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link img {
+  width: 125px;
+  margin-bottom: 25px;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link h4 {
+  text-transform: uppercase;
+  font-family: 'MullerBold';
+  color: #021A32;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link a {
+  color: #021A32;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link a:hover {
+  color: #0095d3;
+}
+
+#mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link p {
+  font-size: 1.2vw;
+  font-family: 'MullerLight';
+  color: #4e4e4e;
+}
+
+#mainHolder #technologyStrategy #key-strategies {
+  position: relative;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap {
+  margin-left: 140px;
+  margin-right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 45px 0;
+  position: relative;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence, #mainHolder #technologyStrategy #key-strategies .wrap #smo {
+  width: 375px;
+  height: 750px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-header-group, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-header-group, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-header-group {
+  font-family: 'MullerMedium';
+  border: 1px solid #707070;
+  height: 33.333%;
+  padding-top: 6%;
+  background-size: cover;
+  position: relative;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-header-group .overlay, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-header-group .overlay, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-header-group .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-header-group img, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-header-group img, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-header-group img {
+  height: 50px;
+  position: inherit;
+  z-index: 100;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-header-group h3.strategy-header, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-header-group h3.strategy-header, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-header-group h3.strategy-header {
+  font-size: 24px;
+  margin: auto;
+  width: 75%;
+  margin-bottom: 5%;
+  color: #fff;
+  position: inherit;
+  z-index: 100;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-header-group h5.strategy-desc, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-header-group h5.strategy-desc, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-header-group h5.strategy-desc {
+  font-size: 18px;
+  margin: auto;
+  width: 80%;
+  color: #fff;
+  position: inherit;
+  z-index: 100;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-button-group, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-button-group, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-button-group {
+  background: #fff;
+  border: 1px solid #707070;
+  height: 66.666%;
+  font-family: 'MullerLight';
+  width: 100%;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-button-group .wrap, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-button-group .wrap, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-button-group .wrap {
+  margin-right: 46.5px;
+  margin-left: 46.5px;
+  display: block;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-button-group .wrap a, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-button-group .wrap a, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-button-group .wrap a {
+  color: initial;
+  text-decoration: none;
+}
+
+#mainHolder #technologyStrategy #key-strategies .wrap #bhpt .strategy-button-group .wrap a .button, #mainHolder #technologyStrategy #key-strategies .wrap #deliver-excellence .strategy-button-group .wrap a .button, #mainHolder #technologyStrategy #key-strategies .wrap #smo .strategy-button-group .wrap a .button {
+  height: 75px;
+  width: 282px;
+  border: 1px solid #707070;
+  display: block;
+  padding: 24px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#mainHolder #technologyStrategy #key-strategies .active {
+  display: block;
+}
+
+#mainHolder #technologyStrategy #key-strategies .hidden {
+  display: none;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap {
+  width: 995px;
+  height: 480px;
+  margin: auto;
+  padding: 45px 30px;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap #departments-column {
+  width: 250px;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column {
+  float: left;
+  margin-right: 20px;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column h6 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul {
+  margin-bottom: 16px;
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul li {
+  color: #000;
+  margin-bottom: 12px;
+  font-family: 'MullerMedium';
+}
+
+#mainHolder #technologyStrategy #footer-sitemap .sitemap-column ul .current {
+  color: #0095d3;
+  font-weight: 600;
+}
+
+@media (min-width: 1601px) {
+  #mainHolder #technologyStrategy #primary #page-description .wrap svg {
+    top: 46%;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap .content h2 {
+    font-size: 1.3vw;
+  }
+  #mainHolder #technologyStrategy #primary #page-resources .wrap .resource-link p {
+    font-size: 1.075vw;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap svg {
+    width: 1530px;
+    top: 29%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #bhpt img {
+    width: 50px;
+    margin-top: 2%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #deliverexcellence img {
+    width: 50px;
+    margin-top: 3%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #smo img {
+    width: 50px;
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599px) {
+  #mainHolder #technologyStrategy #tech-banner img {
+    height: 47vh;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap svg {
+    top: 56%;
+    left: -14.7%;
+    width: 33%;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap .tech-circle-vector img {
+    width: 9vw;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap .content h2 {
+    font-size: 1.4vw;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap svg {
+    width: 98%;
+    top: 28.5%;
+    right: -14%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #bhpt img {
+    width: 11vw;
+    margin-top: -1%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #deliverexcellence img {
+    width: 11vw;
+    margin-top: 0;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #smo img {
+    width: 11vw;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1279px) {
+  #mainHolder #technologyStrategy #tech-banner img {
+    height: 24vh;
+    width: 75%;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap {
+    margin-right: 50px;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap svg {
+    top: 58%;
+    left: -24.7%;
+    width: 45%;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap .tech-circle-vector img {
+    width: 12vw;
+  }
+  #mainHolder #technologyStrategy #primary #page-description .wrap .content h2 {
+    font-size: 1.4vw;
+    width: 67%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap svg {
+    width: 161%;
+    top: 32.5%;
+    right: -28%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #bhpt img {
+    width: 15vw;
+    margin-top: -2.5%;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #deliverexcellence img {
+    width: 15vw;
+    margin-top: 0;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #smo img {
+    width: 15vw;
+    margin-top: 0;
+  }
+  #mainHolder #technologyStrategy #primary #key-strategies .wrap #smo .opacity-0 p {
+    margin-top: 12%;
+  }
+  #mainHolder #technologyStrategy #primary #technologies .wrap {
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  #mainHolder #technologyStrategy #primary #technologies .wrap .col-lg-4 ul {
+    padding: 0;
+  }
+  #mainHolder #technologyStrategy #primary #technologies .wrap .col-lg-4 ul li .button13 {
+    margin: 0 auto 7% auto;
+  }
+}
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+/*# sourceMappingURL=technologyStrategy.css.map */
